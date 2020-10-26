@@ -1,0 +1,65 @@
+#popupmain
+    {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.521);
+        z-index: 1000000;
+    }
+#popup
+    {
+        width: 427px;
+        height: 600px;
+        background-image: url("../img/banner.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 3px 6px 15px 9px rgb(0, 0, 0);
+        text-align: center;
+    }
+.regist-b
+{
+    margin: 2%;
+    padding: 2.5%;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: #ffffff;
+    font-size: 2.0rem;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+}
+.closebutton
+    {
+        margin-top: 500px;
+        background-color: rgba(0, 0, 0, 0.438);
+        color: #ffffff;
+        font-size: 2.0rem;
+        font-weight: 900;
+        font-family: 'Libre Baskerville', serif;
+    }
+.closebutton:hover
+    {
+        color: rgb(238, 130, 238);
+    }
+.regist-link
+    {
+        transform: translateY(20px);
+    }
+.reg-link
+    {
+        border: 2px solid rgba(38, 167, 38, 0.651);
+        position: relative;
+        font-weight: 700;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background-color: rgba(204, 2, 2, 0.466);
+        padding: 1% 3%;
+        font-family: 'Libre Baskerville', serif;
+    }
+.reg-link:hover
+    {
+        color: rgb(255, 255, 255);
+        background-color: rgb(204, 2, 2);
+    }
