@@ -78,6 +78,48 @@ body {
 }
 
 /* Input */
+
+.button_j {
+  border-radius: 10px;
+  background-color: #5328fe;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button_j span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_j span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_j:hover span {
+  padding-right: 25px;
+}
+
+.button_j:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
 input[type='text'], input[type='email'], input[type='password'], input[type='datetime'], input[type='date'], input[type='month'], input[type='time'], input[type='week'], input[type='search'], input[type='tel'], textarea,
 textarea.form-control {
   background-color: #111111;
