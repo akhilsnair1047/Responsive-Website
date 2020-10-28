@@ -85,9 +85,9 @@ body {
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 18px;
+  font-size: 21px;
   padding: 5px;
-  width: 100px;
+  width: 300px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -117,6 +117,45 @@ body {
   opacity: 1;
   right: 0;
 }
+
+/* .button_s {
+  border-radius: 10px;
+  background-color: #5328fe;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button_s span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_s span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_s:hover span {
+  padding-right: 25px;
+}
+
+.button_s:hover span:after {
+  opacity: 1;
+  right: 0;
+} */
 
 
 
