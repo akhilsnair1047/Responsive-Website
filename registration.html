@@ -19,7 +19,7 @@ body {
 }
 
 /* Full-width input fields */
-input[type=text], input[type=number] {
+input[type=text], input[type=number] , input[type=file] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -28,7 +28,7 @@ input[type=text], input[type=number] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=number]:focus {
+input[type=text]:focus, input[type=number]:focus , input[type=file]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -69,22 +69,37 @@ a {
 </head>
 <body>
 
-<form action="/action_page.php">
+<form action="#">
   <div class="container">
     <h1>Join Us</h1>
     <hr>
 
-    <label for="email"><b>Email</b></label>
+    <label for="Name"><b>First Name<b style="color: red;">*</b></b></label>
+    <input type="text" placeholder="Enter your Name" name="Fnam" id="f_nam" required>
+
+    <label for="Name"><b>Last Name<b style="color: red;">*</b></b></label>
+    <input type="text" placeholder="Enter your Name" name="Lnam" id="l_nam" required>
+
+    <label for="email"><b>Email Id<b style="color: red;">*</b></b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
-    <label for="Name"><b>Name</b></label>
-    <input type="text" placeholder="Enter your Name" name="nam" id="nam" required>
-
-    <label for="num"><b>Phone Number</b></label>
+    <label for="num"><b>Mobile No.<b style="color: red;">*</b></b></label>
     <input type="number" placeholder="Enter your phone number" name="num" id="num" required>
 
-    <label for="num_wh"><b>Whatsapp Number</b></label>
+    <label for="num_wh"><b>Whatsapp No.<b style="color: red;">*</b></b></label>
     <input type="number" placeholder="Enter your Whatsapp number" name="num_wh" id="num_wh" required>
+
+    <label for="City"><b>City<b style="color: red;">*</b></b></label>
+    <input type="text" placeholder="Enter your current city" name="city" id="city" required>
+
+    <label for="State"><b>State<b style="color: red;">*</b></b></label>
+    <input type="text" placeholder="Enter your current state" name="state" id="state" required>
+  
+    <label for="Idea"><b>Idea<b style="color: red;">*</b></b></label>  
+    <input type="text" placeholder="Tells Us About Your Idea" name="idea" id="idea" required>
+
+    <label for="Name"><b>Supporting Document(.pdf/.ppt/.doc)</b></label>  
+    <input type="file" placeholder="Choose File" name="file" id="file" >
     <hr>
     
 
